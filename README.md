@@ -45,5 +45,11 @@ MVP Base Features:
 Post MVP Features: 
    
    - Animations 
+
+
+Project Goals/Dev Time Projection: 
+
+![Screen Shot 2021-10-01 at 7 58 06 PM](https://user-images.githubusercontent.com/91752553/135696960-bebe9d52-8efe-4ebf-8851-a1747f1e21f4.png)
+
     
   
