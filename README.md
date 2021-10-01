@@ -25,7 +25,8 @@ Wireframes:
 // Web Design
 
 
-![Screen Shot 2021-10-01 at 3 32 49 PM](https://user-images.githubusercontent.com/91752553/135676837-d7b9ed79-5e42-4991-bdbf-fee0c0320ef9.png)
+![Screen Shot 2021-10-01 at 3 55 37 PM](https://user-images.githubusercontent.com/91752553/135679002-c7a8ddd7-2b9f-422e-b8be-c28b52e91581.png)
+
 
 
 
