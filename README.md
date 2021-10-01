@@ -30,6 +30,7 @@ Wireframes:
 
 
 MVP Base Features: 
+    
     - Render from API to page.
     
     - Drop down menu to select from possible tags.
