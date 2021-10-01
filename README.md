@@ -1,6 +1,8 @@
 # modern_literature_app
 App Title: Modern Literature
+
 App Description: Provides the user with a random quote for inspiration and allows the user to search for books quickly and efficiently on the go. 
+
 APIs: I am using two APIs for this project: Quotable and Google Books. 
 
 
@@ -28,6 +30,7 @@ Wireframes:
 
 MVP Base Features: 
     - Randomly Generated Quote for inspiration. 
+    
     - Search Function to find books the user is looking for. 
     
 Post MVP Features: 
