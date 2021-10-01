@@ -1,9 +1,9 @@
 # modern_literature_app
-App Title: Modern Literature
+App Title: Thinker
 
-App Description: Provides the user with a random quote for inspiration and allows the user to search for books quickly and efficiently on the go. 
+App Description: Provides the user with a random quote from a selection of tags. 
 
-APIs: I am using two APIs for this project: Quotable and Google Books. 
+APIs: I am using the Quotable API for this project. 
 
 
 
@@ -12,34 +12,36 @@ APIs: I am using two APIs for this project: Quotable and Google Books.
 
 ![Screen Shot 2021-10-01 at 1 29 19 PM](https://user-images.githubusercontent.com/91752553/135662655-8de2b2b4-7966-49bd-ae75-397fed47562b.png)
 
-// Screen shot for Google Books API //
-
-![Screen Shot 2021-10-01 at 1 31 13 PM](https://user-images.githubusercontent.com/91752553/135662834-c5f16900-ac17-4417-bb9f-3024457f772d.png)
-
 
 Wireframes: 
 
 // Mobile Design
 
-![Screen Shot 2021-10-01 at 1 38 33 PM](https://user-images.githubusercontent.com/91752553/135663735-96bbee26-63dd-4bb9-90b0-49effd8c30bf.png)
+
+![Screen Shot 2021-10-01 at 3 32 56 PM](https://user-images.githubusercontent.com/91752553/135676814-c071a99e-a364-43fe-a52d-1a68075d6cd6.png)
+
+
 
 // Web Design
 
-![Screen Shot 2021-10-01 at 1 38 43 PM](https://user-images.githubusercontent.com/91752553/135663774-da5184d1-efdf-4d70-92b4-5c12861b2ac7.png)
+
+![Screen Shot 2021-10-01 at 3 32 49 PM](https://user-images.githubusercontent.com/91752553/135676837-d7b9ed79-5e42-4991-bdbf-fee0c0320ef9.png)
+
 
 
 MVP Base Features: 
-    - Randomly Generated Quote for inspiration. 
+    - Render from API to page.
     
-    - Search Function to find books the user is looking for. 
+    - Drop down menu to select from possible tags.
+    
+    - Styled Using Flex Box.
+    
+    - Utilizes Responsive Design.
+    
+    - Built with JavaScript, HTML, & CSS.
     
 Post MVP Features: 
-
-    - User Profiles. 
-    - Ratings and Algorithm to display highest ratings. 
-    - Forum Based User Experience where users can share thoughts on previous, current, or future works. 
-    - Profiles that allow users to post memorable quotes or thoughts as well as hosting their own read and to be read libraries. 
-    - Suggested Books based on User likes. 
-    - Animations 
-    - Sound Effects 
-    - Allows Users to Post and Share completed manuscripts of their own.
+   
+   - Animations 
+    
+  
