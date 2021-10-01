@@ -1,4 +1,4 @@
-# modern_literature_app
+# Thinker_App
 App Title: Thinker
 
 App Description: Provides the user with a random quote from a selection of tags. 
