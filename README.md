@@ -39,3 +39,4 @@ Post MVP Features:
     - Suggested Books based on User likes. 
     - Animations 
     - Sound Effects 
+    - Allows Users to Post and Share completed manuscripts of there own.
