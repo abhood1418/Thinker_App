@@ -16,27 +16,19 @@ fetch(`https://api.quotable.io/random?tags=${tags}`)
   .then((data) => {
     // console.log(`${data.content} —${data.author}`)
     console.log(data);
-    displayQuote(tags);
+    const quoteContent = data.content;
+    const quoteAuthor = data.author
+
+    const displayQuote = document.createElement('div');
+    const displayContent = document.createElement('p');
+    const displayAuthor = document.createElement('p');
+
+    displayContent.append(quoteContent);
+    displayAuthor.append(quoteAuthor);
+    displayQuote.append(displayContent, displayAuthor);
+    quoteSpace.append(displayQuote);
   })
-  // .catch((error) => {
-  // console.log(`ERROR: ${error}`);
-  // }) 
+  .catch((error) => {
+  console.log(`ERROR: ${error}`);
+  }) 
 })
-
-//displayQuote function
-const quote = tags;
-const displayQuote = (quote) => {
-    
-  const addQuoteDiv = document.createElement('div');
-    
-  const quoteContent = document.createElement('p');
-  const quoteAuthor = document.createElement('p');
-
-  quoteContent.innerText = `${tags.content}`;
-  quoteAuthor.innerText = `${tags.author}`;
-
-  addQuoteDiv.append(quoteContent, quoteAuthor);
-  quoteSpace.append(addQuoteDiv);
-  };
-
-
