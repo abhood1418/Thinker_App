@@ -7,4 +7,4 @@ fetch(`https://api.quotable.io/random?tags=${tags}`)
   })
   .catch((error) => {
     console.log(`ERROR: ${error}`);
-  }) 
+  })  
