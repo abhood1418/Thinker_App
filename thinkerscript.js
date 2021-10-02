@@ -5,16 +5,14 @@ const tags = 'love'
 
 
 
-
 fetch(`https://api.quotable.io/random?tags=${tags}`)
-  .then(response => response.json())
+  .then((result) => {
+    return result.json();
+  })
   .then((data) => {
-    // console.log(`${responseJSON.content} —${responseJSON.author}`)
+    // console.log(`${data.content} —${data.author}`)
     console.log(data);
     // displayQuote(`${data.content} -${data.author}`);
-    const newQuote = data.content;
-    const newAuthor = data.author;
-    
     
   })
   .catch((error) => {
@@ -26,17 +24,27 @@ const quoteSpace = document.querySelector('#quotearea');
 
 //displayQuote function
 
-const displayQuote = (quote) => {
+const buttonTest = document.querySelector('#genbtn');
 
-  const quoteDiv = document.createElement('div');
+buttonTest.addEventListener('click', () => {
+  console.log('clicked');
+})
+  
 
-  const quoteContent = document.createElement('p');
-  const quoteAuthor = document.createElement('p');
 
-  quoteContent.innerText = `${data.content}`;
-  quoteAuthor.innerText = `${data.author}`;
+// const displayQuote = (quote, author) => {
 
-  quoteDiv.append(quoteContent, quoteAuthor);
-  quoteSpace.append(quoteDiv);
+//   const quoteDiv = document.createElement('div');
 
-}
+//   const quoteContent = document.createElement('p');
+//   const quoteAuthor = document.createElement('p');
+
+//   quoteContent.innerText = `${data.content}`;
+//   quoteAuthor.innerText = `${data.author}`;
+
+//   quoteDiv.append(quoteContent, quoteAuthor);
+//   quoteSpace.append(quoteDiv);
+
+// }
+
+
