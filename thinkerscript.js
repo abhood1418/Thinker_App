@@ -1,4 +1,4 @@
-// const tags = 'love'
+
 
 /*======================Fetch API Call======================*/
 //=============== onClick Function & Append ==================
@@ -54,7 +54,7 @@ buttonTest.addEventListener('click', () => {
 
 
 //======================== Original API used. Server went down. ==========================
-
+// const tags = 'love'
 // fetch(`https://api.quotable.io/random?tags=${tags}`)
 //   .then((result) => {
 //     return result.json();
