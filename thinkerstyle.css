@@ -54,6 +54,7 @@ body {
 #genspace {
   text-align: center;
   position: relative;
+  margin-top: 20%;
 }
 
 #genspace img {
@@ -69,6 +70,8 @@ body {
   box-shadow: 0px 10px 10px 0 #EFCA08;
   width: 30%;
   height: 10%;
+  border-radius: 16px;
+  border: solid 2px;
 }
 
 #genspace button {
