@@ -19,9 +19,10 @@ body {
 /*===============Quote Space Style======================= */
 
 #quotearea {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .display-div {
