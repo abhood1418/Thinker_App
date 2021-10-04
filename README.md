@@ -49,8 +49,6 @@ MVP Base Features:
     
     - Render from API to page.
     
-    - Drop down menu to select from possible tags.
-    
     - Styled Using Flex Box.
     
     - Utilizes Responsive Design.
