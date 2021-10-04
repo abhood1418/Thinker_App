@@ -7,9 +7,6 @@ header {
 
 header h1 {
   text-align: center;
-  /* border: solid 5px; */
-  border-radius: 16px;
-  /* background-color: #BBDEF0; */
   font-family: 'Caveat', cursive;
   height: 100px;
   color: white;
@@ -72,7 +69,6 @@ body {
 }
 
 #genspace img {
-  /* margin-top: 1%; */
   height: auto;
   width: 70%;
 }
@@ -96,8 +92,135 @@ body {
 }
 
 /*===============Media Query======================= */
-/* 
-@media screen and (min) {
-  
-} */
 
+/* ========= Built Mobile First =================== */
+
+/* =========== Ipad Breakpoint ==================== */
+
+@media screen and (min-width: 768px) {
+  #genspace button {
+    position: absolute;
+    top:21%;
+    left: 33%;
+  }
+}
+
+/* =========== Ipad Breakpoint ==================== */
+
+@media screen and (min-width: 768px) {
+  #genspace button {
+    position: absolute;
+    top: 22%;
+    left: 33.7%;
+  }
+}
+
+
+
+/* === Computer Screen Breakpoints Full Span Responsive === */
+
+@media screen and (min-width: 200px) {
+  #genspace button {
+    position: absolute;
+    top: 17%;
+    left: 27%;
+  }
+}
+
+@media screen and (min-width: 351px) {
+  #genspace button {
+    position: absolute;
+    top: 20%;
+    left: 30.5%;
+  }
+}
+
+@media screen and (min-width: 366px) {
+  #genspace button {
+    position: absolute;
+    top: 20%;
+    left: 30.5%;
+  }
+}
+
+@media screen and (min-width: 522px) {
+  #genspace button {
+    position: absolute;
+    top: 22%;
+    left: 31.9%;
+  }
+}
+
+@media screen and (min-width: 532px) {
+  #genspace button {
+    position: absolute;
+    top: 22%;
+    left: 31.9%;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  #genspace button {
+    position: absolute;
+    top: 22%;
+    left: 31.5%;
+  }
+}
+
+
+@media screen and (min-width: 635px) {
+  #genspace button {
+    position: absolute;
+    top: 22%;
+    left: 32.5%;
+  }
+}
+
+@media screen and (min-width: 893px) {
+  #genspace button {
+    position: absolute;
+    top: 24%;
+    left: 33.5%;
+  }
+}
+
+@media screen and (min-width: 925px) {
+  #genspace button {
+    position: absolute;
+    top: 24%;
+    left: 33.8%;
+  }
+}
+
+
+@media screen and (min-width: 1100px) {
+  #genspace button {
+    position: absolute;
+    top: 24%;
+    left: 33.8%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #genspace button {
+    position: absolute;
+    top: 24%;
+    left: 33.8%;
+  }
+}
+
+@media screen and (min-width: 1380px) {
+  #genspace button {
+    position: absolute;
+    top: 24.5%;
+    left: 34.3%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #genspace button {
+    position: absolute;
+    top: 24%;
+    left: 34.25%;
+  }
+}
