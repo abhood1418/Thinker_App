@@ -21,6 +21,12 @@ buttonTest.addEventListener('click', () => {
       const displayQuote = document.createElement('div');
       const displayContent = document.createElement('p');
       const displayAuthor = document.createElement('p');
+
+      displayQuote.classList.add('display-div');
+      displayContent.classList.add('display-content');
+      displayAuthor.classList.add('display-author');
+
+
   
       displayContent.append(quoteContent);
       displayAuthor.append(quoteAuthor);
@@ -34,7 +40,20 @@ buttonTest.addEventListener('click', () => {
 })
 
 
-//Original API used. Server went down.
+
+
+
+
+
+
+
+
+
+
+
+
+
+//======================== Original API used. Server went down. ==========================
 
 // fetch(`https://api.quotable.io/random?tags=${tags}`)
 //   .then((result) => {

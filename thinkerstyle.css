@@ -1,0 +1,61 @@
+
+/*===============Header Style======================= */
+
+header h1 {
+  text-align: center;
+  border: solid 5px;
+  border-radius: 16px;
+  background-color: #BBDEF0;
+}
+
+
+/*===============Body Style======================= */
+
+body {
+  background-color: #00A6A6;
+}
+
+
+
+
+/*===============Quote Space Style======================= */
+
+#quotearea {
+  flex-flow: row;
+}
+
+.display-div {
+  flex-flow: row;
+  flex-wrap: wrap;
+  background-color: #EFCA08;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin: 18px;
+  border: solid 5px #F08700;
+  border-radius: 16px;
+}
+
+.dispaly-content .display-author {
+  flex-wrap: wrap;
+  flex-grow: 2;
+  background-color: #EFCA08;
+  
+}
+
+
+
+/*===============Button Space Style======================= */
+
+#genspace {
+  text-align: center;
+}
+
+#genbtn {
+  margin: 18px;
+}
+
+
+/*===============Media Query======================= */
+
