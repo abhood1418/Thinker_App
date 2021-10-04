@@ -50,12 +50,25 @@ body {
 
 #genspace {
   text-align: center;
+  position: relative;
+}
+
+#genspace img {
+  height: 150px;
+  width: auto;
 }
 
 #genbtn {
   margin: 18px;
+  /* position: absolute; */
 }
 
+#genspace button {
+  position: absolute;
+  top: 2%;
+  left: 40%;
+
+}
 
 /*===============Media Query======================= */
 
