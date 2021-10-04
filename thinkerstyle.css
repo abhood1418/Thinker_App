@@ -57,21 +57,24 @@ body {
 }
 
 #genspace img {
-  height: 150px;
-  width: auto;
+  height: auto;
+  width: 70%;
 }
 
 #genbtn {
   margin: 18px;
   position: relative;
   font-family: 'Caveat', cursive;
+  background-color: #F08700;
+  box-shadow: 0px 10px 10px 0 #EFCA08;
+  width: 30%;
+  height: 10%;
 }
 
 #genspace button {
   position: absolute;
-  top: 2%;
-  left: 39%;
-
+  top: 5%;
+  left: 32%;
 }
 
 /*===============Media Query======================= */
