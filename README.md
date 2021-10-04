@@ -3,7 +3,7 @@ App Title: Thinker
 
 App Description: Provides the user with a random quote from a selection of tags. 
 
-APIs: I am using the Quotable API for this project. 
+APIs: I am using the Quotable API for this project (REVISED: Due to Quotable DNS Server crashing project has shifted to use Quote-Garden. 
 
 
 
@@ -15,6 +15,9 @@ APIs: I am using the Quotable API for this project.
 
 ![Screen Shot 2021-10-04 at 9 59 54 AM](https://user-images.githubusercontent.com/91752553/135864912-1b36eaca-e2e5-431d-ab56-e3d04be57178.png)
 
+// NEW API Quote-Garden: 
+
+![Screen Shot 2021-10-04 at 9 59 54 AM](https://user-images.githubusercontent.com/91752553/135870520-c8a01522-8c4e-41fd-849c-5c47156c50ac.png)
 
 
 Wireframes: 
