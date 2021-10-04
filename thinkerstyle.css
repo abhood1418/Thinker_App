@@ -6,6 +6,7 @@ header h1 {
   border: solid 5px;
   border-radius: 16px;
   background-color: #BBDEF0;
+  font-family: 'Caveat', cursive;
 }
 
 
@@ -35,13 +36,15 @@ body {
   margin: 18px;
   border: solid 5px #F08700;
   border-radius: 16px;
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
 }
 
 .dispaly-content .display-author {
   flex-wrap: wrap;
   flex-grow: 2;
   background-color: #EFCA08;
-  
+  font-family: 'Caveat', cursive;  
 }
 
 
@@ -60,13 +63,14 @@ body {
 
 #genbtn {
   margin: 18px;
-  /* position: absolute; */
+  position: relative;
+  font-family: 'Caveat', cursive;
 }
 
 #genspace button {
   position: absolute;
   top: 2%;
-  left: 40%;
+  left: 39%;
 
 }
 
