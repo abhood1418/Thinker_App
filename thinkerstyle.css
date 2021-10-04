@@ -1,19 +1,26 @@
 
 /*===============Header Style======================= */
 
+header {
+  text-align: center;
+}
+
 header h1 {
   text-align: center;
-  border: solid 5px;
+  /* border: solid 5px; */
   border-radius: 16px;
-  background-color: #BBDEF0;
+  /* background-color: #BBDEF0; */
   font-family: 'Caveat', cursive;
+  height: 100px;
+  color: white;
+  font-size: 50px;
 }
 
 
 /*===============Body Style======================= */
 
 body {
-  background-color: black;
+  background-image: url("https://wallpaperaccess.com/full/1268183.jpg");
 }
 
 /*===============Quote Space Style======================= */
@@ -54,14 +61,18 @@ body {
   border: solid black 10px;
   text-align: center;
   position: relative;
-  margin-top: 20%;
-  background-color: #00A6A6;
+  margin-top: 1%;
+  /* background-color: #00A6A6; */
   border-top-left-radius: 500px;
   border-top-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  width: 100%;
+  height: auto;
 }
 
 #genspace img {
-  margin-top: 10%;
+  /* margin-top: 1%; */
   height: auto;
   width: 70%;
 }
@@ -81,7 +92,7 @@ body {
 #genspace button {
   position: absolute;
   top:20%;
-  left: 32%;
+  left: 30%;
 }
 
 /*===============Media Query======================= */
