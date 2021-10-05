@@ -4,7 +4,9 @@
 header {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 0px;
   padding-top: 25px;
+  padding-bottom: 1px;
 }
 
 header h1 {
@@ -27,13 +29,18 @@ header h1:after {
   z-index: -2;
 }
 
+header h4 {
+  color: white;
+  font-family: 'Caveat', cursive;;
+}
+
 @keyframes floating {
   0% {
     line-height: 30px;
     transform: translateY(0px);
   }
   55% {
-    transform: translateY(-13.2px);
+    transform: translateY(-13.211px);
   }
   60% {
     line-height: 13.3821px;
@@ -151,19 +158,25 @@ body {
   #genspace button {
     position: absolute;
     top:21%;
-    left: 33%;
+    left: 50%;
     font-size: 38px;
+  }
+  header h1 {
+    font-size: 70px;
   }
 }
 
 /* =========== Ipad Pro Breakpoint ==================== */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   #genspace button {
     position: absolute;
     top: 22%;
     left: 33.7%;
     font-size: 38px;
+  }
+  header h1 {
+    font-size: 80px;
   }
 }
 
@@ -327,5 +340,16 @@ body {
     position: absolute;
     top: 24%;
     left: 34.25%;
+  }
+  header h1 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 1660px) {
+  #genspace button {
+    position: absolute;
+    top: 24%;
+    left: 34.50%;
   }
 }
