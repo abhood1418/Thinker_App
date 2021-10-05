@@ -31,7 +31,8 @@ header h1:after {
 
 header h4 {
   color: white;
-  font-family: 'Caveat', cursive;;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
 }
 
 @keyframes floating {
