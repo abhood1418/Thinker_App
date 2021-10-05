@@ -39,6 +39,10 @@ buttonTest.addEventListener('click', () => {
     })
 })
 
+const meditateButton = document.querySelector('#meditatebtn');
+meditateButton.addEventListener('click', () => {
+  quoteSpace.innerHTML = ('');
+})
 
 
 
