@@ -99,7 +99,7 @@ body {
 
 /* ========= Iphone X Design with Flex ================= */
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
 
   #quotearea {
     display: flex;
@@ -107,7 +107,13 @@ body {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  #genspace button {
+    font-size: 18px;
+  }
 }
+
+
 /* =========== Ipad Breakpoint ==================== */
 
 @media screen and (min-width: 768px) {
@@ -115,6 +121,7 @@ body {
     position: absolute;
     top:21%;
     left: 33%;
+    font-size: 38px;
   }
 }
 
@@ -125,6 +132,7 @@ body {
     position: absolute;
     top: 22%;
     left: 33.7%;
+    font-size: 38px;
   }
 }
 
@@ -137,6 +145,22 @@ body {
     position: absolute;
     top: 17%;
     left: 27%;
+  }
+}
+
+@media screen and (min-width: 321px) {
+  #genspace button {
+    position: absolute;
+    top: 20%;
+    left: 30.2%;
+  }
+}
+
+@media screen and (min-width: 343px) {
+  #genspace button {
+    position: absolute;
+    top: 20%;
+    left: 30.2%;
   }
 }
 
@@ -156,11 +180,21 @@ body {
   }
 }
 
+@media screen and (min-width: 513px) {
+  #genspace button {
+    position: absolute;
+    top: 22%;
+    left: 31.9%;
+    font-size: 25px;
+  }
+}
+
 @media screen and (min-width: 522px) {
   #genspace button {
     position: absolute;
     top: 22%;
     left: 31.9%;
+    font-size: 25px;
   }
 }
 
@@ -186,6 +220,31 @@ body {
     position: absolute;
     top: 22%;
     left: 32.5%;
+
+  }
+}
+
+@media screen and (min-width: 809px) {
+  #genspace button {
+    position: absolute;
+    top: 24%;
+    left: 33.5%;
+  }
+}
+
+@media screen and (min-width: 855px) {
+  #genspace button {
+    position: absolute;
+    top: 24%;
+    left: 33.5%;
+  }
+}
+
+@media screen and (min-width: 879px) {
+  #genspace button {
+    position: absolute;
+    top: 24%;
+    left: 33.5%;
   }
 }
 
@@ -211,6 +270,7 @@ body {
     position: absolute;
     top: 24%;
     left: 33.8%;
+    font-size: 38px;
   }
 }
 
@@ -219,6 +279,7 @@ body {
     position: absolute;
     top: 24%;
     left: 33.8%;
+    font-size: 38px;
   }
 }
 
