@@ -22,6 +22,8 @@ body {
 
 /*===============Quote Space Style======================= */
 
+/* ========= Flexbox Setup ======================== */
+
 #quotearea {
   display: flex;
   flex-direction: row;
@@ -45,7 +47,6 @@ body {
 }
 
 .dispaly-content .display-author {
-  /* flex-grow: 2; */
   background-color: #EFCA08;
   font-family: 'Caveat', cursive; 
 }
@@ -83,6 +84,7 @@ body {
   height: 10%;
   border-radius: 16px;
   border: solid 2px;
+  /* font-size: 2px; */
 }
 
 #genspace button {
@@ -95,6 +97,17 @@ body {
 
 /* ========= Built Mobile First =================== */
 
+/* ========= Iphone X Design with Flex ================= */
+
+@media screen and (min-width: 375px) {
+
+  #quotearea {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 /* =========== Ipad Breakpoint ==================== */
 
 @media screen and (min-width: 768px) {
@@ -105,7 +118,7 @@ body {
   }
 }
 
-/* =========== Ipad Breakpoint ==================== */
+/* =========== Ipad Pro Breakpoint ==================== */
 
 @media screen and (min-width: 768px) {
   #genspace button {
