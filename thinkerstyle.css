@@ -141,8 +141,20 @@ body {
 
 #genspace button {
   position: absolute;
-  top:20%;
-  left: 30%;
+  /* top:20%;
+  left: 30%; */
+}
+
+/* =========== Word Button Styling =================== */
+
+#wordbtn {
+  font-family: 'Caveat', cursive;
+  background-color: #8fc7f5;
+  box-shadow: 0px 10px 10px 0 #0018f0;
+  width: 30%;
+  height: 10%;
+  border-radius: 16px;
+  border: solid 2px;
 }
 
 /* ========= Meditate Feature Styling ============== */
