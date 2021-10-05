@@ -101,7 +101,6 @@ body {
   text-align: center;
   position: relative;
   margin-top: 1%;
-  /* background-color: #00A6A6; */
   border-top-left-radius: 500px;
   border-top-right-radius: 500px;
   border-bottom-left-radius: 500px;
@@ -125,13 +124,36 @@ body {
   height: 10%;
   border-radius: 16px;
   border: solid 2px;
-  /* font-size: 2px; */
 }
 
 #genspace button {
   position: absolute;
   top:20%;
   left: 30%;
+}
+
+/* ========= Meditate Feature Styling ============== */
+
+#meditatebtn {
+  text-align: center;
+  margin-left: 24px;
+}
+
+#meditatebtnstyle {
+  font-family: 'Caveat', cursive;
+  background-color: #F08700;
+  box-shadow: 0px 10px 10px 0 #EFCA08;
+  width: 30%;
+  height: 40%;
+  border-radius: 16px;
+  border: solid 2px;
+  font-size: 20px;
+}
+
+#meditatebtn p {
+  color: white;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
 }
 
 /*===============Media Query======================= */

@@ -39,6 +39,8 @@ buttonTest.addEventListener('click', () => {
     })
 })
 
+// ======================= Meditate Feature ==================== //
+
 const meditateButton = document.querySelector('#meditatebtn');
 meditateButton.addEventListener('click', () => {
   quoteSpace.innerHTML = ('');
