@@ -131,6 +131,7 @@ body {
 
 #genspace img {
   height: auto;
+  margin-right: 12px;
   width: 70%;
 }
 
@@ -162,7 +163,7 @@ body {
 
 #meditatebtn {
   text-align: center;
-  margin-left: 24px;
+  /* margin-left: 24px; */
 }
 
 #meditatebtnstyle {
