@@ -26,8 +26,8 @@ buttonTest.addEventListener('click', () => {
       displayContent.classList.add('display-content');
       displayAuthor.classList.add('display-author');
 
-      displayContent.append(quoteContent);
-      displayAuthor.append(quoteAuthor);
+      displayContent.append(`"${quoteContent}"`);
+      displayAuthor.append(`~ ${quoteAuthor}`);
       displayQuote.append(displayContent, displayAuthor);
       quoteSpace.append(displayQuote);
 

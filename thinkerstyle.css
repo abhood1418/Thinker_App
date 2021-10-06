@@ -92,11 +92,13 @@ body {
   font-size: 25px;
   max-width: 500px;
   max-height: fit-content;
+  text-align: center;
 }
 
 .dispaly-content .display-author {
   background-color: #EFCA08;
   font-family: 'Caveat', cursive; 
+  text-align: center;
 }
 
 .word-div {
