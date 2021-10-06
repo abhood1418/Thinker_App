@@ -37,6 +37,14 @@ header h4 {
   padding-left: 3%;
 }
 
+#thought {
+  color: #EFCA08;
+}
+
+#words {
+  color: #8fc7f5;
+}
+
 @keyframes floating {
   0% {
     line-height: 30px;
@@ -240,6 +248,9 @@ body {
   #genspace img {
     height: auto;
     width: 50%;
+  }
+  #meditatebtnstyle {
+    font-size: 30px;
   }
 }
 
