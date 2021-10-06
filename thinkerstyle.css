@@ -116,7 +116,7 @@ body {
   max-height: fit-content;
 }
 
-/*===============Think Button Space Style======================= */
+/*===============Thought Button Space Style======================= */
 
 #genspace {
   border: solid black 10px;
@@ -149,6 +149,15 @@ body {
   border: solid 2px;
 }
 
+#genbtn:hover {
+  color: #f9ea45;
+}
+
+#genbtn:active {
+  color: #9f5700;
+  transform: translateY(4px);
+}
+
 /* =========== Word Button Styling =================== */
 
 #wordbtn {
@@ -159,6 +168,15 @@ body {
   height: 10%;
   border-radius: 16px;
   border: solid 2px;
+}
+
+#wordbtn:hover {
+  color:aqua;
+}
+
+#wordbtn:active {
+  color:aqua;
+  transform: translateY(4px);
 }
 
 /* ========= Meditate Feature Styling ============== */
@@ -183,6 +201,15 @@ body {
   color: white;
   font-family: 'Caveat', cursive;
   font-size: 30px;
+}
+
+#meditatebtnstyle:hover {
+  color: chartreuse;
+}
+
+#meditatebtnstyle:active{
+  color: chartreuse;
+  transform: translateY(4px);
 }
 
 /* ================= Footer Styling ================ */
