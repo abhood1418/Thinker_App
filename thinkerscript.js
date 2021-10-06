@@ -72,6 +72,7 @@ fetch(`https://random-words-api.vercel.app/word`)
     quoteSpace.append(displayWordDiv);
 })
 })
+
 // ======================= Meditate Feature ==================== //
 
 const meditateButton = document.querySelector('#meditatebtn');
