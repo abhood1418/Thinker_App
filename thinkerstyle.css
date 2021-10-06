@@ -139,12 +139,6 @@ body {
   border: solid 2px;
 }
 
-#genspace button {
-  position: absolute;
-  /* top:20%;
-  left: 30%; */
-}
-
 /* =========== Word Button Styling =================== */
 
 #wordbtn {
@@ -234,11 +228,7 @@ body {
 
 @media screen and (min-width: 768px) {
   #genspace button {
-    position: absolute;
-    top:21%;
     font-size: 30px;
-    width: 150px;
-    margin-left: 7.57%;
   }
   header h1 {
     font-size: 70px;
@@ -257,9 +247,6 @@ body {
 
 @media screen and (min-width: 1024px) {
   #genspace button {
-    position: absolute;
-    top: 22%;
-    left: 33.7%;
     font-size: 38px;
   }
   header h1 {
@@ -274,94 +261,35 @@ body {
 
 /* === Computer Screen Breakpoints Full Span Responsive === */
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 200px) { 
   #genspace button {
-    position: absolute;
-    top: 17%;
-    left: 27%;
-  }
-}
-
-@media screen and (min-width: 321px) {
-  #genspace button {
-    position: absolute;
-    top: 20%;
-    left: 30.2%;
-  }
-}
-
-@media screen and (min-width: 343px) {
-  #genspace button {
-    position: absolute;
-    top: 20%;
-    left: 30.2%;
-  }
-}
-
-@media screen and (min-width: 351px) {
-  #genspace button {
-    position: absolute;
-    top: 20%;
-    left: 30.5%;
-  }
-}
-
-@media screen and (min-width: 366px) {
-  #genspace button {
-    position: absolute;
-    top: 20%;
-    left: 30.5%;
+    font-size: 18px;
   }
 }
 
 @media screen and (min-width: 513px) {
   #genspace button {
-    position: absolute;
-    top: 22%;
-    left: 31.9%;
     font-size: 25px;
   }
 }
 
-@media screen and (min-width: 522px) {
-  #genspace button {
-    position: absolute;
-    top: 22%;
-    left: 31.9%;
-    font-size: 25px;
-  }
-}
-
-@media screen and (min-width: 532px) {
-  #genspace button {
-    position: absolute;
-    top: 22%;
-    left: 31.9%;
-  }
-}
 
 @media screen and (min-width: 540px) {
   #genspace button {
-    position: absolute;
-    top: 22%;
-    left: 31.5%;
+    font-size: 30px;
   }
 }
 
 
 @media screen and (min-width: 635px) {
   #genspace button {
-    position: absolute;
-    top: 22%;
-    left: 32.5%;
+    font-size: 30px;
   }
 }
 
 @media screen and (min-width: 680px) {
   #genspace button {
-    position: absolute;
-    top: 22%;
-    left: 32.5%;
+    font-size: 30px;
   }
   header h4 {
     padding-left: 1%;
@@ -369,52 +297,15 @@ body {
   }
 }
 
-@media screen and (min-width: 809px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 33.5%;
-  }
-}
-
-@media screen and (min-width: 855px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 33.5%;
-  }
-}
-
-@media screen and (min-width: 879px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 33.5%;
-  }
-}
-
-@media screen and (min-width: 893px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 33.5%;
-  }
-}
-
 @media screen and (min-width: 925px) {
-  #genspace button {
+  /* #genspace button {
     position: absolute;
     top: 24%;
     left: 33.8%;
-  }
+  } */
 }
 
 @media screen and (min-width: 950px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 33.8%;
-  }
   header h4 {
     padding-left: 2%;
     max-width: 900px;
@@ -422,12 +313,6 @@ body {
 }
 
 @media screen and (min-width: 1000px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 34.8%;
-    font-size: 38px;
-  }
   header h4 {
     padding-left: 10%;
     max-width: 900px;
@@ -436,11 +321,7 @@ body {
 
 @media screen and (min-width: 1050px) {
   #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 38.8%;
     font-size: 38px;
-    width: 200px;
   }
   header h4 {
     padding-left: 10%;
@@ -450,9 +331,6 @@ body {
 
 @media screen and (min-width: 1080px) {
   #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 33.8%;
     font-size: 38px;
   }
   header h4 {
@@ -464,18 +342,12 @@ body {
 
 @media screen and (min-width: 1100px) {
   #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 33.8%;
     font-size: 38px;
   }
 }
 
 @media screen and (min-width: 1150px) {
   #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 33.8%;
     font-size: 38px;
   }
   header h4 {
@@ -487,38 +359,17 @@ body {
 
 @media screen and (min-width: 1200px) {
   #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 33.8%;
     font-size: 38px;
   }
 }
 
-@media screen and (min-width: 1380px) {
-  #genspace button {
-    position: absolute;
-    top: 24.5%;
-    left: 34.3%;
-  }
-}
-
 @media screen and (min-width: 1400px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 34.25%;
-  }
   header h1 {
     font-size: 100px;
   }
 }
 
 @media screen and (min-width: 1626px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 34.50%;
-  }
   header h4 {
     padding-left: 30%;
     font-size: 50px;
@@ -527,11 +378,6 @@ body {
 }
 
 @media screen and (min-width: 1660px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 34.50%;
-  }
   header h4 {
     padding-left: 25%;
     font-size: 50px;
@@ -540,12 +386,6 @@ body {
 }
 
 @media screen and (min-width: 1250px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 33%;
-    width: 250px;
-  }
   header h4 {
     padding-left: 15%;
     font-size: 50px;
@@ -554,11 +394,6 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 34%;
-  }
   header h4 {
     padding-left: 15%;
     font-size: 50px;
@@ -567,11 +402,6 @@ body {
 }
 
 @media screen and (min-width: 1400px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 34.3%;
-  }
   header h4 {
     padding-left: 19%;
     font-size: 50px;
@@ -580,13 +410,6 @@ body {
 }
 
 @media screen and (min-width: 1600px) {
-  #genspace button {
-    position: absolute;
-    top: 26%;
-    left: 20%;
-    width: 400px;
-    margin-left: 18.5%;
-  }
   header h4 {
     padding-left: 25%;
     font-size: 50px;
@@ -595,13 +418,6 @@ body {
 }
 
 @media screen and (min-width: 1700px) {
-  #genspace button {
-    position: absolute;
-    top: 26%;
-    left: 20%;
-    width: 400px;
-    margin-left: 18.5%;
-  }
   header h4 {
     padding-left: 25%;
     font-size: 50px;
@@ -610,13 +426,6 @@ body {
 }
 
 @media screen and (min-width: 1800px) {
-  #genspace button {
-    position: absolute;
-    top: 26%;
-    left: 21%;
-    width: 400px;
-    margin-left: 18.5%;
-  }
   header h4 {
     padding-left: 25%;
     font-size: 50px;
@@ -625,11 +434,6 @@ body {
 }
 
 @media screen and (min-width: 2000px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 22%;
-  }
   header h4 {
     padding-left: 30%;
     font-size: 50px;
@@ -638,9 +442,6 @@ body {
 }
 @media screen and (min-width: 2290px) {
   #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 23%;
     text-align: center;
   }
   header h4 {
@@ -651,11 +452,6 @@ body {
 }
 
 @media screen and (min-width: 2300px) {
-  #genspace button {
-    position: absolute;
-    top: 24%;
-    left: 34.8%;
-  }
   header h4 {
     padding-left: 30%;
     font-size: 50px;
