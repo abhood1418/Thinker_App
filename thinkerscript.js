@@ -40,8 +40,6 @@ buttonTest.addEventListener('click', () => {
 // ========== Word API Fetch and onClick Functions ==============
 
 wordButton.addEventListener('click', () => {
-  console.log('clicked');
-
 
 fetch(`https://random-words-api.vercel.app/word`)
   .then((result) => {
@@ -79,42 +77,3 @@ const meditateButton = document.querySelector('#meditatebtn');
 meditateButton.addEventListener('click', () => {
   quoteSpace.innerHTML = ('');
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//======================== Original API used. Server went down. ==========================
-// const tags = 'love'
-// fetch(`https://api.quotable.io/random?tags=${tags}`)
-//   .then((result) => {
-//     return result.json();
-//   })
-//   .then((data) => {
-    // console.log(`${data.content} —${data.author}`)
-    // console.log(data);
-    
-//     const quoteContent = data.content;
-//     const quoteAuthor = data.author
-
-//     const displayQuote = document.createElement('div');
-//     const displayContent = document.createElement('p');
-//     const displayAuthor = document.createElement('p');
-
-//     displayContent.append(quoteContent);
-//     displayAuthor.append(quoteAuthor);
-//     displayQuote.append(displayContent, displayAuthor);
-//     quoteSpace.append(displayQuote);
-//   })
-//   .catch((error) => {
-//   console.log(`ERROR: ${error}`);
-//   }) 
