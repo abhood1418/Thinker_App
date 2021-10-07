@@ -5,6 +5,8 @@ App Description: Provides the user with a random quote or word definition.
 
 APIs: I am using Quote-Garden for this application with Vercel utilized in my PMVP.
 
+Live Link: https://abhood1418.github.io/Thinker_App/
+
 
 // API Quote-Garden: 
 
@@ -26,7 +28,7 @@ Wireframes:
 
 MVP Base Features: 
     
-    - Render from API to page.
+    - Renders from API to page.
     
     - Styled Using Flex Box.
     
